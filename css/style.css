@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+.profil img {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    background-image: url("/img/bg.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 20px 0;
+}
+
+header h3 {
+    color: white;
+    margin-bottom: 0.9rem;
+}
+
+header div {
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
+section {
+    /* width: 100%; */
+    padding: 0 10px;
+}
+section {
+    margin-top: 1.2rem;
+}
+
+h4 {
+    color: gray;
+}
+
+/* main.contents {
+    margin-top: 10px !important;
+    display: flex;
+    gap: 0.8rem;
+    width: 100%;
+} */
+list::marker {
+    margin: 2rem;
+}
+
+.contents div {
+    padding: 0.4rem 3rem;
+}
+header div {
+    padding: 0 1.6rem;
+}
+li {
+    padding-left: rem;
+    list-style-position: inside;
+}
+
+footer {
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    width: 100%;
+}
